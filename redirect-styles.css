@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.redirect-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.redirect-button {
+    background: #333;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease;
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+.redirect-button i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.redirect-button:hover {
+    background: #555;
+}
